@@ -1,16 +1,46 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Bootstrap Table Example</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Item</th>
+        <th>Quantity</th>
+        <th>Price</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Item 1</td>
+        <td>2</td>
+        <td>$10.00</td>
+      </tr>
+      <tr>
+        <td>Item 2</td>
+        <td>5</td>
+        <td>$8.00</td>
+      </tr>
+      <tr>
+        <td>Item 3</td>
+        <td>3</td>
+        <td>$15.00</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="2" class="text-end fw-bold">Total:</td>
+        <td id="total" class="font-monospace text-end fw-bold">$67.00</td>
+      </tr>
+    </tfoot>
+  </table>
 
+  <h2>Topic Tags</h2>
+  <p>HTML</p>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
-
 </html>
